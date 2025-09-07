@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>StoryFrames</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  body { width: 900px; min-height: 800px; }
+  #comicContainer { width: 860px; height: 700px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 20px; margin: 0 auto; }
+</style>
+</head>
+<body>
+  <h2>🍌 StoryFrames</h2>
+  <label for="styleSelect" style="font-weight:bold;">Comic Style:</label>
+  <select id="styleSelect" style="width:100%;margin-bottom:10px;">
+    <option value="manhwa">Manhwa / Webtoon</option>
+    <option value="ghibli">Ghibli / Cinematic</option>
+    <option value="minimalist">Minimalist / Flat Design</option>
+  </select>
+  <button id="generateBtn">Generate</button>
+  <button id="downloadBtn">Download</button>
+  <button id="shareBtn" style="display:none;">Share</button>
+  <div id="status"></div>
+  <div id="comicContainer"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
