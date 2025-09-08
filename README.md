@@ -5,6 +5,10 @@
    ```bash
    git clone https://github.com/inje-nischal/StoryFrames.git
    cd StoryFrames
+
+2. **ADD API_KEY **
+   ```bash
+   const API_KEY = "API_HERE";
    
 2. **Open the Chrome Extensions page**
 
