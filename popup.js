@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyCMct9mGy7fNNGMgX7Ue1rC36zfEoi1dHI";
+const API_KEY = "API_HERE";
 const TEXT_MODEL = "gemini-2.0-flash-exp";
 const IMAGE_MODEL = "gemini-2.5-flash-image-preview"; 
 
